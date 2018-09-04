@@ -1,0 +1,7 @@
+'''
+출력값 순서대로 말해봐
+'''
+for i in range(1,4):
+    for j in range(1,i+1):
+        print(i*j,",", sep="", end="")
+print("종료!")
